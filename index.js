@@ -3,6 +3,7 @@ let b = a;
 
 console.log('Nach chislo a:', a, 'Nach chislo b:' , b)
 
+//Tern1
 //(a > 10 ? a : a * 2) > 5 ? (2 * a) + 1 : (a < 3 ? 1 : 2 * (a - 2)) > 4 ? 5 : (a % 2 == 0 ? 6 : 7);
 //Задание: 
 // условие с условным (тернарным) оператором перевести в if...else И switch()
@@ -81,7 +82,7 @@ switch(true){
 
 
 
-
+//Tern2
 /* function manyChecks() {
     let a = Math.floor(Math.random() * 20) + 1;
     console.log(`a = ${a}`);
